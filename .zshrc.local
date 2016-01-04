@@ -88,11 +88,5 @@ export PATH="$PATH:$HOME/bin" # Add RVM to PATH for scripting
 BULLETTRAIN_TIME_SHOW=false
 BULLETTRAIN_RUBY_BG=red
 BULLETTRAIN_RUBY_FG=black
-ssh-add -KA ~/.ssh/id_rsa &>/dev/null
-ssh-add -KA ~/.ssh/beta_rsa &>/dev/null
-ssh-add -KA ~/.ssh/bitbucket_rsa &>/dev/null
-ssh-add -KA ~/.ssh/dublabs_rsa &>/dev/null
-ssh-add -KA ~/.ssh/github &>/dev/null
-ssh-add -KA ~/.ssh/github_rsa &>/dev/null
-ssh-add -KA ~/.ssh/opscode_rsa &>/dev/null
+ssh-add -KA ~/.ssh/id_rsa ~/.ssh/beta_rsa ~/.ssh/bitbucket_rsa ~/.ssh/dublabs_rsa ~/.ssh/github ~/.ssh/github_rsa ~/.ssh/opscode_rsa &>/dev/null
 
