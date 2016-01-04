@@ -1,0 +1,6 @@
+# Settings
+set -g terminal-overrides 'xterm*:smcup@:rmcup@'
+
+# Binds
+bind-key r source-file ~/.tmux.conf \; display-message "~/.tmux.conf reloaded"
+

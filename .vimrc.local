@@ -1,0 +1,33 @@
+" esc in normal mode
+imap kj <esc>
+imap jk <esc>
+
+" save in insert mode
+imap æ <esc>:w<CR>
+imap œ  <esc>:wq<CR>
+
+" Emacs-like beginning and end of line.
+imap <c-e> <c-o>$
+imap <c-a> <c-o>^
+
+" j and k on wrapped lines
+nmap j gj
+nmap k gk
+
+" ctrl + t to open a new tab
+nmap <c-t> :tabnew
+
+" Custom Leader commands
+nmap <leader>s :w<CR>
+nmap <leader>vr :tabedit $MYVIMRC.local<cr>
+nmap <leader>so :source $MYVIMRC<cr>
+
+" Custom commands
+command! Q q
+command! Qall qall
+command! QA qall
+command! E e
+
+" silver search
+let g:ctrlp_user_command = 'ag %s -l --hidden --nocolor -g ""'
+let g:ctrlp_use_caching = 0

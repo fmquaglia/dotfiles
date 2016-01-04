@@ -1,0 +1,5 @@
+[user]
+	name = Fabricio Matías Quagliariello
+	email = matias.quaglia@gmail.com
+[core]
+	autocrlf = input
