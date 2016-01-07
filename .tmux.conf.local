@@ -3,4 +3,7 @@ set -g terminal-overrides 'xterm*:smcup@:rmcup@'
 
 # Binds
 bind-key r source-file ~/.tmux.conf \; display-message "~/.tmux.conf reloaded"
-
+bind-key C-l resize-pane -R 10
+bind-key C-k resize-pane -U 5
+bind-key C-j resize-pane -D 5
+bind-key C-h resize-pane -L 10
