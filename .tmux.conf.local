@@ -7,3 +7,6 @@ bind-key C-l resize-pane -R 10
 bind-key C-k resize-pane -U 5
 bind-key C-j resize-pane -D 5
 bind-key C-h resize-pane -L 10
+
+bind-key - split-window -v -c '#{pane_current_path}'
+bind-key | split-window -h -c '#{pane_current_path}'
