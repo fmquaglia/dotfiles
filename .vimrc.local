@@ -15,9 +15,10 @@ nmap j gj
 nmap k gk
 
 " ctrl + t to open a new tab
-nmap <c-t> :tabnew
+nmap <c-t> :tabnew<CR>
 
 " Custom Leader commands
+" leader being <space>
 nmap <leader>s :w<CR>
 nmap <leader>vr :tabedit $MYVIMRC.local<cr>
 nmap <leader>so :source $MYVIMRC<cr>
