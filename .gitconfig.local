@@ -1,5 +1,15 @@
 [user]
-	name = Fabricio Matías Quagliariello
-	email = matias.quaglia@gmail.com
+  name = Fabricio Matías Quagliariello
+  email = matias.quaglia@gmail.com
 [core]
-	autocrlf = input
+  autocrlf = input
+[core]
+  autocrlf = input
+  editor = vim
+[hub]
+  protocol = https
+[credential]
+  helper = osxkeychain
+[push]
+ default = matching
+
