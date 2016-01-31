@@ -1,15 +1,23 @@
+[alias]
+  history = log --pretty=format:'%C(yellow)%h%C(reset) - %an [%C(green)%ar%C(reset)] %s'
+  sla = log --oneline --decorate --graph --all
 [user]
   name = Fabricio Matías Quagliariello
   email = matias.quaglia@gmail.com
+
 [core]
   autocrlf = input
+
 [core]
   autocrlf = input
   editor = vim
+
 [hub]
   protocol = https
+
 [credential]
   helper = osxkeychain
+
 [push]
  default = matching
 
