@@ -1,4 +1,6 @@
 [alias]
+  aa        = add -all
+  ca        = commit -a
   history   = log --pretty=format:'%C(yellow)%h%C(reset) - %an [%C(green)%ar%C(reset)] %s'
   sla       = log --oneline --decorate --graph --all
   glog      = log -E -i --grep
