@@ -1,3 +1,10 @@
 Plug 'tpope/vim-commentary'
-Plug 'guns/xterm-color-table.vim'
+Plug 'kana/vim-textobj-user'
+Plug 'nelstrom/vim-textobj-rubyblock'
+
+" tmux integration
 Plug 'christoomey/vim-tmux-navigator'
+Plug 'christoomey/vim-tmux-runner'
+
+" not really needed
+Plug 'guns/xterm-color-table.vim'

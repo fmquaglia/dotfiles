@@ -39,5 +39,11 @@ hi StatusLineNC ctermbg=16 ctermfg=246
 
 " -------------------------- tmux integration ----------------------------------
 autocmd VimResized * :wincmd =
-nnoremap <leader>- :wincmd _<cr>:wincmd \|<cr>
-nnoremap <leader>= :wincmd =<cr>
+nnoremap <leader>- :wincmd _<CR>:wincmd \|<CR>
+nnoremap <leader>= :wincmd =<CR>
+
+" -------------------------- tmux runner ---------------------------------------
+let g:VtrUseVtrMaps = 1
+
+" --------------------------- enable matchit  ----------------------------------
+runtime macros/matchit.vim

@@ -4,24 +4,25 @@
   history   = log --pretty=format:'%C(yellow)%h%C(reset) - %an [%C(green)%ar%C(reset)] %s'
   sla       = log --oneline --decorate --graph --all
   glog      = log -E -i --grep
-
-[user]
-  name      = Fabricio Matías Quagliariello
-  email     = matias.quaglia@gmail.com
-
-[core]
-  autocrlf  = input
+  vdif      = difftool
 
 [core]
   autocrlf  = input
   editor    = vim
 
-[hub]
-  protocol  = https
-
 [credential]
   helper    = osxkeychain
 
+[diff]
+  tool      = vimdiff
+
+[hub]
+  protocol  = https
+
 [push]
  default    = matching
+
+[user]
+  name      = Fabricio Matías Quagliariello
+  email     = matias.quaglia@gmail.com
 
