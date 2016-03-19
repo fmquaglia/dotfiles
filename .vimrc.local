@@ -1,3 +1,7 @@
+" colors
+highlight Pmenu ctermbg=232 ctermfg=202
+highlight PmenuSel ctermbg=202 ctermfg=232
+
 " esc in normal mode
 imap kj <esc>
 imap jk <esc>
@@ -45,5 +49,22 @@ nnoremap <leader>= :wincmd =<CR>
 " -------------------------- tmux runner ---------------------------------------
 let g:VtrUseVtrMaps = 1
 
+" rspec runner
+let g:rspec_command = "call VtrSendCommand('rspec {spec}')"
+map <leader>t :call RunCurrentSpecFile()<CR>
+map <leader>s :call RunNearestSpec()<CR>
+map <leader>l :call RunLastSpec()<CR>
+map <leader>a :call RunAllSpecs()<CR>
 " --------------------------- enable matchit  ----------------------------------
 runtime macros/matchit.vim
+
+" -------------------------- commentary --------------------------------------
+nmap cm <Plug>Commentary
+
+" -------------------------- commentary --------------------------------------
+nmap ySS <Plug>YSsurround
+nmap ySs <Plug>YSsurround
+nmap yss <Plug>Yssurround
+nmap yS <Plug>YSurround
+nmap ys <Plug>Ysurround
+

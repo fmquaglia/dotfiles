@@ -1,6 +1,7 @@
 Plug 'tpope/vim-commentary'
 Plug 'kana/vim-textobj-user'
 Plug 'nelstrom/vim-textobj-rubyblock'
+Plug 'christoomey/vim-system-copy'
 
 " tmux integration
 Plug 'christoomey/vim-tmux-navigator'

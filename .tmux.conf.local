@@ -32,7 +32,6 @@ bind-key b break-pane -d
 # session navigation
 bind-key C-j choose-tree
 
-
 ####################### copy mode #############################################
 # Use vim keybindings in copy mode
 setw -g mode-keys vi
