@@ -51,10 +51,11 @@ let g:VtrUseVtrMaps = 1
 
 " rspec runner
 let g:rspec_command = "call VtrSendCommand('rspec {spec}')"
-map <leader>t :call RunCurrentSpecFile()<CR>
-map <leader>s :call RunNearestSpec()<CR>
-map <leader>l :call RunLastSpec()<CR>
-map <leader>a :call RunAllSpecs()<CR>
+map <Leader>t :call RunCurrentSpecFile()<CR>
+map <Leader>s :call RunNearestSpec()<CR>
+map <Leader>l :call RunLastSpec()<CR>
+map <Leader>a :call RunAllSpecs()<CR>
+
 " --------------------------- enable matchit  ----------------------------------
 runtime macros/matchit.vim
 
