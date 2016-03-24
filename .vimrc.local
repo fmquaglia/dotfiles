@@ -62,12 +62,14 @@ runtime macros/matchit.vim
 nmap cm <Plug>Commentary
 
 " -------------------------- commentary --------------------------------------
-nmap ySS <Plug>YSsurround
-nmap ySs <Plug>YSsurround
-nmap yss <Plug>Yssurround
-nmap yS <Plug>YSurround
+" nmap ySS <Plug>YSsurround
+" nmap ySs <Plug>YSsurround
+" nmap yss <Plug>Yssurround
+" nmap yS <Plug>YSurround
 nmap ys <Plug>Ysurround
 
 " -------------------------- exchange ------------------------------------------
-nmap cxiw
+nmap cX <Plug>(ExchangeLine)
+nmap <C-x> cxiw
+
 
